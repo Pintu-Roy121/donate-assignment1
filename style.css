@@ -270,9 +270,11 @@ p {
     background-color: rgb(11, 11, 31);
     text-align: center;
     padding: 35px;
+
 }
 
 .color {
+    font-family: 'Lobster Two', cursive;
     color: rgb(245, 68, 68);
 }
 
