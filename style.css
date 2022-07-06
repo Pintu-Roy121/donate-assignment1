@@ -248,10 +248,10 @@ p {
 
 #mail-form {
     margin-top: 50px;
+    margin-right: -4px;
     padding: 15px 40px;
     border: none;
     font-size: 15px;
-    border-radius: 5px;
 }
 
 .btn-form {
@@ -261,7 +261,7 @@ p {
     background-color: rgb(216, 94, 94);
     color: white;
     font-size: 15px;
-    border-radius: 5px;
+
 }
 
 .footer {
