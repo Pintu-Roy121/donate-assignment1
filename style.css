@@ -14,11 +14,15 @@ h1 {
 
 h2 {
     font-size: 50px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 p {
-    width: 60%;
-    margin: 0 auto;
+    /* width: 60%; */
     line-height: 25px;
 }
 
@@ -37,6 +41,10 @@ p {
     margin: 50px auto;
 }
 
+.header-content p {
+    margin: 0px auto;
+    width: 60%;
+}
 
 .header-content h1 {
     margin-bottom: 30px;
@@ -62,12 +70,13 @@ p {
 
 .donate-today {
     text-align: center;
-    margin: 90px;
+    margin: 40px;
     justify-content: center;
 }
 
-.donate-today {
-    margin-bottom: 15px;
+.donate-today p {
+    margin: 0px auto;
+    width: 60%;
 }
 
 .amount {
@@ -109,7 +118,89 @@ p {
     text-align: center;
     border-style: none;
     border-bottom: 1px solid gray;
+}
+
+.plan-heading {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.plan-heading p {
+    margin: 0px auto;
+    width: 60%;
+}
+
+.plans P {
+    margin-top: 20px;
+}
+
+.plans {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+
+}
+
+.plans img {
+    margin-bottom: 20px;
+}
 
 
+.food {
+    justify-content: center;
+    margin: 10px 30px;
+    background-color: rgb(212, 238, 236);
+    padding: 20px 20px;
+    height: auto;
+    text-align: left;
+    border-radius: 5px;
+}
 
+.shelter {
+    margin: 10px 30px;
+    background-color: rgb(245, 235, 235);
+    padding: 20px 20px;
+    height: auto;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.education {
+    margin: 10px 30px;
+    background-color: rgb(247, 231, 181);
+    padding: 20px 20px;
+    height: auto;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.updates {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.updates p {
+    margin: 0px auto;
+    width: 60%;
+}
+
+.footer {
+    margin-top: 50px;
+    height: 100px;
+    background-color: rgb(11, 11, 31);
+    text-align: center;
+    padding: 35px;
+}
+
+.color {
+    color: rgb(245, 68, 68);
+}
+
+.footer-content h4 {
+    font-size: 30px;
+}
+
+.footer-content p {
+    text-align: center;
+    color: white;
 }
